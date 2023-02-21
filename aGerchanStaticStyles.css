@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 
-h1 { font-family: 'Albert Sans'; font-size: 64px;}
+h1 { font-family: 'Albert Sans'; font-size: 64px; font-weight:lighter;}
 
 h2 {
     font-family: 'Albert Sans'; 
@@ -76,7 +76,9 @@ body {margin:50px}
   position: absolute;
   font-size: 6px;
   background-color: white;
+  min-width:120px;
   z-index:1;
+  margin-left:15px;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
