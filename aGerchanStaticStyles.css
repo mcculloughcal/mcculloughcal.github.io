@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 
-h1 { font-family: 'Albert Sans'; font-size: 64px; font-weight:lighter; line-height:1.16;}
+h1 { font-family: 'Albert Sans'; font-size: 9.5vw; font-weight:lighter; line-height:1.16;}
 
 h2 {
     font-family: 'Albert Sans'; 
@@ -27,33 +27,34 @@ a {
   color:#000000;
   text-decoration: none;
   font-family:'Albert Sans';
+  font-size: 2.2vw;
 }
 
 a:hover{
   color: #7c7c7c;
 }
 
-body {margin:50px}
+body {margin:50px; font-size: 2.2vw;}
 
 .sidenav {
-    height: 100%;
-    width: 250px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(255, 255, 255);
-    overflow-x: hidden;
-    padding-top: 0px;
-    outline-style: solid;
-    outline-width: 1px;
-    font-family: 'Albert Sans'; 
+	height: 100%;
+	width: 33%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(255, 255, 255);
+	overflow-x: hidden;
+	padding-top: 0px;
+	outline-style: solid;
+	outline-width: 1px;
+	font-family: 'Albert Sans';
   }
   
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 2.2vw;
     color: #000000;
     display: block;
   }
@@ -63,26 +64,29 @@ body {margin:50px}
   }
   
   .main {
-    margin-left: 250px; /* Same as the width of the sidenav */
+	margin-top: 10%;
+	margin-left: 36%; /* Same as the width of the sidenav */
+	font-size: 2.2vw;
 
   }
 
 .dropdown {
-  position: relative;  
+  position: relative;
+  font-size: 2.2vw;  
   
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  font-size: 6px;
+  font-size: 2.2vw;
   background-color: white;
   min-width:120px;
   z-index:1;
   margin-left:15px;
 }
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block; font-size: 2.2vw;}
 
 button {
     color: white;
@@ -90,7 +94,7 @@ button {
     border-color: white;
     border: 0px solid black;
     padding: 14px 28px; 
-    font-size: 12px;
+    font-size: 2.2vw;
     font-family: Albert Sans;
     cursor: pointer;
 }
