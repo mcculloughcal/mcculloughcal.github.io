@@ -68,12 +68,15 @@ body {margin:50px}
 
 .dropdown {
   position: relative;  
+  
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
   font-size: 6px;
+  background-color: white;
+  z-index:1;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
