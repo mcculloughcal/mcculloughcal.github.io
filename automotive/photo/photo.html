@@ -2,52 +2,59 @@
 <html>
 <head>
     <style>
-        div.gallery {
-          border: 1px solid #ccc;
-        }
-        
-        div.gallery:hover {
-          border: 1px solid #777;
-        }
-        
-        div.gallery img {
-          width: 100%;
-          height: auto;
-        }
-        
-        div.desc {
-          padding: 15px;
-          text-align: center;
-        }
-        
-        * {
-          box-sizing: border-box;
-        }
-        
-        .responsive {
-          padding: 0 6px;
-          float: left;
-          width: 24.99999%;
-        }
-        
-        @media only screen and (max-width: 700px) {
-          .responsive {
-            width: 49.99999%;
-            margin: 6px 0;
-          }
-        }
-        
-        @media only screen and (max-width: 500px) {
-          .responsive {
-            width: 100%;
-          }
-        }
-        
-        .clearfix:after {
-          content: "";
-          display: table;
-          clear: both;
-        }
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
         </style>
 <meta charset="utf-8">
 <title>mcculloughcal</title>
@@ -107,6 +114,95 @@
     </div>
     <a href="../../index.html">about me</a>
 	</div>
+  <div class="main" style="margin-top:0%">
+    <div class="row">
+      <div class="column">
+        <img src="assets/_6123152.jpg" style="width:100%">
+        <img src="assets/_6306567.jpg" style="width:100%">
+        <img src="assets/_MG_0063.jpg" style="width:100%">
+        <img src="assets/_MG_1491.jpg" style="width:100%">
+        <img src="assets/_MG_2393.jpg" style="width:100%">
+        <img src="assets/00000IMG_00000_BURST20200414185650991_COVER.jpg" style="width:100%">
+        <img src="assets/135i Dew.jpg" style="width:100%">
+        <img src="assets/330i.jpg" style="width:100%">
+        <img src="assets/20180515_102333.jpg" style="width:100%">
+        <img src="assets/20201024_032146.jpg" style="width:100%">
+        <img src="assets/Adobe_20200106_152243.jpg" style="width:100%">
+        <img src="assets/Adobe_20200414_223407.jpg" style="width:100%">
+        <img src="assets/Adobe_20200414_223925.jpg" style="width:100%">
+        <img src="assets/Adobe_20200414_231959.jpg" style="width:100%">
+        <img src="assets/Adobe_20200414_232620.jpg" style="width:100%">
+        <img src="assets/Adobe_20200414_233321.jpg" style="width:100%">
+        <img src="assets/Adobe_20200414_233733.jpg" style="width:100%">
+        <img src="assets/Adobe_20201024_031405.jpg" style="width:100%">
+        <img src="assets/Adobe_20210110_043320.jpg" style="width:100%">
+        <img src="assets/BMW Standout 2.jpg" style="width:100%">
+        </div>
+        <div class="column">
+        <img src="assets/_6306552.jpg" style="width:100%">
+        <img src="assets/BMW2.jpg" style="width:100%">
+        <img src="assets/DSC_9299.NEF" style="width:100%">
+        <img src="assets/GTI.jpg" style="width:100%">
+        <img src="assets/IMG_20180910_091714.jpg" style="width:100%">
+        <img src="assets/IMG_20180912_082352.jpg" style="width:100%">
+        <img src="assets/IMG_20180912_083435.jpg" style="width:100%">
+        <img src="assets/IMG_20180912_085404.jpg" style="width:100%">
+        <img src="assets/IMG_20181007_151528.jpg" style="width:100%">
+        <img src="assets/IMG_20181010_112500.jpg" style="width:100%">
+        <img src="assets/Levante.jpg" style="width:100%">
+        <img src="assets/Lude Dials.jpg" style="width:100%">
+        <img src="assets/M3 Annex Film.jpg" style="width:100%">
+        <img src="assets/P2170824.jpg" style="width:100%">
+        <img src="assets/P2200489.jpg" style="width:100%">
+        <img src="assets/P2200514.jpg" style="width:100%">
+        <img src="assets/P2200565.jpg" style="width:100%">
+        <img src="assets/P2200683.jpg" style="width:100%">
+        <img src="assets/P2200683.jpg" style="width:100%">
+        <img src="assets/P2280276.jpg" style="width:100%">
+        </div>
+        <div class="column">
+        <img src="assets/_6306558.jpg" style="width:100%">
+        <img src="assets/P2280279.jpg" style="width:100%">
+        <img src="assets/P2280470.jpg" style="width:100%">
+        <img src="assets/P2280486.jpg" style="width:100%">
+        <img src="assets/P2280550.jpg" style="width:100%">
+        <img src="assets/P2280563.jpg" style="width:100%">
+        <img src="assets/P2280643.jpg" style="width:100%">
+        <img src="assets/P3030091.jpg" style="width:100%">
+        <img src="assets/P3100566.jpg" style="width:100%">
+        <img src="assets/P3120719.jpg" style="width:100%">
+        <img src="assets/P3171646.jpg" style="width:100%">
+        <img src="assets/P3171653.jpg" style="width:100%">
+        <img src="assets/P3171681.jpg" style="width:100%">
+        <img src="assets/P3171736.jpg" style="width:100%">
+        <img src="assets/P3181922.jpg" style="width:100%">
+        <img src="assets/P4120079.jpg" style="width:100%">
+        <img src="assets/P4120113.jpg" style="width:100%">
+        <img src="assets/P4120206.jpg" style="width:100%">
+        <img src="assets/P5011561.jpg" style="width:100%">
+        </div>
+        <div class="column">
+        <img src="assets/_6306565.jpg" style="width:100%">
+        <img src="assets/P5011646.jpg" style="width:100%">
+        <img src="assets/PSX_20190101_161800.jpg" style="width:100%">
+        <img src="assets/PSX_20190119_145747.jpg" style="width:100%">
+        <img src="assets/PSX_20190121_095545.jpg" style="width:100%">
+        <img src="assets/PSX_20190413_214921.jpg" style="width:100%">
+        <img src="assets/PSX_20190801_235043.jpg" style="width:100%">
+        <img src="assets/PSX_20191226_193614.jpg" style="width:100%">
+        <img src="assets/PSX_20200106_153625.jpg" style="width:100%">
+        <img src="assets/PSX_20200414_234110.jpg" style="width:100%">
+        <img src="assets/PSX_20200425_005901.jpg" style="width:100%">
+        <img src="assets/PSX_20200612_114758.jpg" style="width:100%">
+        <img src="assets/PSX_20200814_155614.jpg" style="width:100%">
+        <img src="assets/PSX_20201005_210948.jpg" style="width:100%">
+        <img src="assets/PSX_20201024_024725.jpg" style="width:100%">
+        <img src="assets/PSX_20210110_035345.jpg" style="width:100%">
+        <img src="assets/PSX_20210110_040023.jpg" style="width:100%">
+        <img src="assets/PSX_20210110_041738.jpg" style="width:100%">
+        <img src="assets/R8 Lens Flare Color.jpg" style="width:100%">
+        <img src="assets/Termi.jpg" style="width:100%">
+        </div>
     <div class="main">
         <p>Lorem ipsum etc etc</p>
     </div>
